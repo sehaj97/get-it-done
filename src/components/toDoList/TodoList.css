@@ -1,0 +1,38 @@
+form {
+  width: 100%;
+  margin: auto;
+}
+
+.input {
+  background-color: #d1d4d9;
+  border-color: #afb5bd;
+  color: #071123;
+  border-radius: 0.25rem;
+  width: 75%;
+}
+
+.button {
+  border-radius: 0.25rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  color: #fff;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+li::before {
+  content: "";
+  display: inline-block;
+  height: 0.75rem;
+  width: 0.75rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  background-color: #f56565;
+}
